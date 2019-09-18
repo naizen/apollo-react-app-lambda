@@ -1,5 +1,4 @@
-// src/lambda/graphql.js
-import { ApolloServer, gql } from 'apollo-server-lambda';
+const { ApolloServer, gql } = require('apollo-server-lambda');
 
 const typeDefs = gql`
   type Query {
